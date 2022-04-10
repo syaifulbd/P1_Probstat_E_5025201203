@@ -41,6 +41,10 @@ hist(dataset, breaks = 50,
      col = "purple")
 
 #no 6.c
+n = 100
+miu = 50
+taw = 8
+
 set.seed(1)
 dataset <- rnorm(n, miu, taw)
 dataset
