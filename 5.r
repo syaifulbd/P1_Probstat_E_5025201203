@@ -4,6 +4,7 @@ P <- dexp(lamda)
 P
 
 #no 5.b
+set.seed(1)
 n1 = 10
 s1 <- rexp(n1)
 hist(s1, main = "Histogram Distribusi Eksponensial n = 10",
